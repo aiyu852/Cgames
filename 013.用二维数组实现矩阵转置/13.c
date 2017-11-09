@@ -1,5 +1,6 @@
-/* 用二维数组实现矩阵的转置 */
+/* 鐢ㄤ簩缁存暟缁勫疄鐜扮煩闃电殑杞疆 */
 #include <stdio.h>
+//#include <stdlib.h>
 #define ROW 3
 #define COL 4
 main()
@@ -7,7 +8,7 @@ main()
 	int matrixA[ROW][COL],matrixB[COL][ROW];
 	int i,j;
 
-	clrscr();
+	clrscr();//搴旇鐢╯ystem("cls");鏇挎崲
 	printf("Enter elements of the matrixA,");
 	printf("%d*%d:\n",ROW,COL);
 	for( i=0; i<ROW; i++ )
